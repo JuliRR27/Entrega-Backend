@@ -1,0 +1,54 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Este es un proyecto para mi curso de Back-End en Coderhouse, en este repositorio iré creando un back-end para un E-commerce, a lo largo del curso iremos completando varios desafíos para poco a poco ir armando el back-end de la tienda.",
+  "main": "product-class.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js --mode production",
+    "dev": "nodemon ./src/app.js --mode development",
+    "test": "mocha test/supertest.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliRR27/Entrega-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliRR27/Entrega-Backend.git"
+  },
+  "homepage": "https://github.com/JuliRR27/Entrega-Backend.git",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "artillery-plugin-metrics-by-endpoint": "^1.2.0",
+    "bcrypt": "^5.1.0",
+    "commander": "^11.0.0",
+    "connect-mongo": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "mongoose-paginate-v2": "^1.7.1",
+    "node-fetch": "^3.3.1",
+    "nodemailer": "^6.9.4",
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.6.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
